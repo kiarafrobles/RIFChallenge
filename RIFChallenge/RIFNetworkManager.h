@@ -1,0 +1,15 @@
+//
+//  NetworkManager.h
+//  RIFChallenge
+//
+//  Created by Kiara Robles on 3/6/16.
+//  Copyright © 2016 kiaraRobles. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NetworkManager : NSObject
+
++(void)getGIFWithCompletion:(void (^)(NSArray *responseObject))block;
+
+@end
